@@ -1,0 +1,12 @@
+.pytest_cache
+__pycache__
+dist
+build
+torchgan.*
+docs/src
+runs/
+model/
+images/
+mnist/
+.ipynb_checkpoints
+datasets

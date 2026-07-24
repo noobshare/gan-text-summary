@@ -1,0 +1,22 @@
+codecov:
+  token: 23d4e0d8-6a7d-47fe-a2ac-9fedcbc155b3
+  notify:
+    require_ci_to_pass: yes
+
+coverage:
+  status:
+    patch: false
+    project:
+      default:
+        enabled: true
+        target: 50%
+
+ignore:
+  - "setup.py"
+  - "./test"
+  - "./docs"
+
+comment:
+  layout: "header, diff"
+  behavior: default
+  require_changes: no
